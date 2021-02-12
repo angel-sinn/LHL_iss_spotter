@@ -1,11 +1,11 @@
 const {
-  fetchMyIP,
-  fetchCoordsByIP,
-  fetchISSFlyOverTimes,
+  // fetchMyIP,
+  // fetchCoordsByIP,
+  // fetchISSFlyOverTimes,
   nextISSTimesForMyLocation,
 } = require("./iss_promised");
 
-const { printFlyOverTimes } = require("./index");
+const { printFlyOverTimes } = require("./printFlyOverTimes");
 
 // Codes commented out below are for reference. Used when building up the app.
 
